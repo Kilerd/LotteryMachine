@@ -5,7 +5,7 @@ A Simple Lottery Machine
 
 ## 使用方法
 
-打开 randomer.html 即可 （用浏览器打开，不建议用IE，建议用Chorme，反正一个比较新的浏览器都可以）
+打开 index.html 即可 （用浏览器打开，不建议用IE，建议用Chorme，反正一个比较新的浏览器都可以）
 
 
 ## 奖项修改
