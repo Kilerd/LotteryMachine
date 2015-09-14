@@ -1,0 +1,64 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>抽奖机器</title>
+
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<style type="text/css">
+*{
+    padding:0 0;
+    margin: 0 auto;
+    /*font-family: 'Helvetica Neue', 'STHeiti', 'Microsoft YaHei', Helvetica,Arial,sans-serif;*/
+    font-family: "Open Sans", "Helvetica Neue", "Microsoft Jhenghei", Helvetica,'STHeiti', "Hiragino Sans GB", SimHei, STHeiti, sans-serif;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-size:50px;
+}
+.content{
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#Result{
+    border:3px solid #40AA53;
+    margin:0 auto;
+    text-align:center;
+    width:400px;
+    padding:50px 0;
+    background:#efe;
+}
+
+#btn{
+    background-color:#40AA53;
+    border:1px solid #40AA53;
+
+    margin: 50px auto;
+    padding: 10px 80px;
+
+    border-radius:2.5px;
+    -moz-border-radius:2.5px;
+    -webkit-border-radius:2.5px;
+    color:#FFF;
+}
+</style>
+
+</head>
+<body>
+
+<div class="content">
+    <h1 style="color:#40AA53; margin: 30px auto;">抽奖</h1>
+
+    <div id="Result" style="color:#40AA53">
+        <span id="ResultNum">未中奖</span>
+    </div>
+
+    <input type='button' id="btn" value='开始' onclick='beginRndNum(this)'/>
+
+</div>
+</body>
+</html>
